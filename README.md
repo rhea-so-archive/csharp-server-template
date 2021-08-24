@@ -1,10 +1,8 @@
-# 🚧 C# Project Template
+# CSharpRuntime
 
-Easy way to start c#!
+`Properties/launchSettings.json`
 
-## Feature
-
-1. console
+`dotnet watch run`
 
 ## Support Git History
 
