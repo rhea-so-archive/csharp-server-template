@@ -36,13 +36,13 @@ sudo apt-get update; \
 
 ## ② Project 준비
 
-1. Template Source Code를 다운로드 받는다.
-2. Source Code에서 `CSharpRuntime`로 되어있는 모든 부분들을 원하는 Project 이름으로 변경한다.
+1. Template Source Code를 다운로드 받습니다.
+2. Source Code에서 `CSharpRuntime`로 되어있는 모든 부분들을 원하는 Project 이름으로 변경합니다.
 
-> VSCode로 열고, shift + ctrl + f로 검색해서 일괄 수정하면 편하다.  
-> VSCode로 열었을 경우에는 무조건 다시 닫고 켜주자. (IDE 캐시 때문에 빌드가 안될 수 있음)
+> VSCode로 열고, shift + ctrl + f로 검색해서 일괄 수정하면 편합니다.  
+> VSCode로 열었을 경우에는 무조건 다시 닫고 켜주세요. (IDE 캐시 때문에 빌드가 안될 수 있음)
 
-3. `Properties/launchSettings.json`의 `applicationUrl` 값을 변경해 Server의 Port 번호를 수정할 수 있다.
+3. `Properties/launchSettings.json`의 `applicationUrl` 값을 변경해 Server의 Port 번호를 수정할 수 있습니다.
 
 ## ③ 실행 및 테스트
 
@@ -52,13 +52,13 @@ sudo apt-get update; \
 dotnet run
 ```
 
-> 빌드 후 실행
+> 한번 빌드 후 실행합니다
 
 ```sh
 dotnet watch run
 ```
 
-> Source Code가 변경될때마다 빌드 후 실행
+> Source Code가 변경될때마다 빌드 후 실행합니다
 
 ### 테스트
 
