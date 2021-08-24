@@ -9,7 +9,13 @@ namespace CSharpRuntime.Controllers
 {
 	public class GreetingRequest
 	{
+		public UserInfo userInfo { get; set; }
+	}
+
+	public class UserInfo
+	{
 		public string name { get; set; }
+		public int age { get; set; }
 	}
 
 	public class GreetingController
@@ -18,10 +24,9 @@ namespace CSharpRuntime.Controllers
 		[Route("/greeting")]
 		public dynamic GreetingRouter([FromBody] GreetingRequest req)
 		{
-			Console.WriteLine($"Hi! {req.name}.");
 			return new
 			{
-				message = $"Hi! {req.name}."
+				message = $"Hi! {req.userInfo.name}, {req.userInfo.age - 1} year olds in U.S.A" // 미국식으로 나이를 계산하기 위해 -1을 함
 			};
 		}
 	}
