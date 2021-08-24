@@ -7,7 +7,7 @@
 			"type": "process",
 			"args": [
 				"build",
-				"${workspaceFolder}/CSharpTemplate.csproj",
+				"${workspaceFolder}/CSharpRuntime.csproj",
 				"/property:GenerateFullPaths=true",
 				"/consoleloggerparameters:NoSummary"
 			],
@@ -19,7 +19,7 @@
 			"type": "process",
 			"args": [
 				"publish",
-				"${workspaceFolder}/CSharpTemplate.csproj",
+				"${workspaceFolder}/CSharpRuntime.csproj",
 				"/property:GenerateFullPaths=true",
 				"/consoleloggerparameters:NoSummary"
 			],
@@ -32,7 +32,7 @@
 			"args": [
 				"watch",
 				"run",
-				"${workspaceFolder}/CSharpTemplate.csproj",
+				"${workspaceFolder}/CSharpRuntime.csproj",
 				"/property:GenerateFullPaths=true",
 				"/consoleloggerparameters:NoSummary"
 			],
